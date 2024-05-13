@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #373B92;
+    background-image: linear-gradient(to right, rgba(41, 42, 43, 0.7), rgba(65, 66, 66, 0.7), rgba(105, 106, 107, 0.7), rgba(106, 116, 134, 0.7), rgba(141, 153, 173, 0.7));
+}
+.btn-primary {
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #373B92;
+    color: #fff;
+    transition: ease-in all 0.5s;
+    border-color: #373B92;
+}
+
+.btn-primary:hover {
+    background-color: #E64027;
+    color: #fff;
+    transition: ease-in all 0.5s;
+    border-color: #E64027;
+}
